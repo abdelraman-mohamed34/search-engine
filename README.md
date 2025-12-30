@@ -41,5 +41,3 @@ A high-performance search engine capable of handling **1 million items** smoothl
   Binary search algorithm allows searches across 1M records in milliseconds.
 
 ---
-
-## 📂 Project Structure
