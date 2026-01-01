@@ -62,24 +62,9 @@ search-engine/
 │  │  └─ loading.jsx           # Loading screen
 │  │
 │  ├─ components/              # Reusable UI components
-│  │  ├─ SearchBar.jsx         # City search input
-│  │  ├─ WeatherCard.jsx       # Weather summary card
-│  │  ├─ WeatherDetails.jsx    # Extra weather details
+│  │  ├─ SearchBar.jsx         # items search input
 │  │  └─ Loader.jsx            # Loading spinner
-│  │
-│  ├─ redux/                    # Redux state management
-│  │  ├─ store.js               # Redux store
-│  │  └─ weatherSlice.js        # Weather state & reducers
-│  │
-│  ├─ services/                 # API service functions
-│  │  └─ weatherService.js      # Weather API calls
-│  │
-│  ├─ utils/                    # Helper functions
-│  │  └─ formatTemperature.js
-│  │
-│  └─ constants/                # Static constants
-│     └─ apiUrls.js
-│
+|  | 
 ├─ .env.local                  # Environment variables
 ├─ .gitignore                  # Git ignore rules
 ├─ next.config.mjs             # Next.js configuration
