@@ -5,7 +5,7 @@ A high-performance search engine capable of handling **1 million items** smoothl
 ---
 
 ## 🌐 Live Demo
-https://search-engine-roan.vercel.app/
+<a href='https://search-engine-roan.vercel.app/' target='_blank'/>
 
 
 ---
