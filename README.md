@@ -4,6 +4,12 @@ A high-performance search engine capable of handling **1 million items** smoothl
 
 ---
 
+## 🌐 Live Demo
+https://search-engine-roan.vercel.app/
+
+
+---
+
 ## 🚀 Key Features
 
 - **1,000,000 Items Processing:** Handles massive datasets without freezing the UI.  
@@ -41,3 +47,35 @@ A high-performance search engine capable of handling **1 million items** smoothl
   Binary search algorithm allows searches across 1M records in milliseconds.
 
 ---
+
+## 📁 Project Structure
+
+```
+
+search-engine/
+├─ public/                     # Static assets (images, icons, etc.)
+├─ src/                        # Source code
+│  ├─ app/                     # Next.js App Router
+│  │  ├─ page.jsx              # Main page
+│  │  ├─ layout.jsx            # Root layout
+│  │  ├─ globals.css           # Global styles
+│  │  └─ loading.jsx           # Loading screen
+│  │
+│  ├─ components/              # Reusable UI components
+│  │  ├─ SearchBar.jsx         # items search input
+│  │  └─ Loader.jsx            # Loading spinner
+|  | 
+├─ .env.local                  # Environment variables
+├─ .gitignore                  # Git ignore rules
+├─ next.config.mjs             # Next.js configuration
+├─ postcss.config.mjs          # PostCSS / Tailwind config
+├─ tailwind.config.js           # Tailwind configuration
+├─ jsconfig.json               # Path aliases
+├─ package.json                # Project dependencies
+├─ package-lock.json           # Exact installed versions
+└─ README.md                   # Project documentation
+
+```
+---
+
+⭐ If you like this project, don’t forget to give it a star!
